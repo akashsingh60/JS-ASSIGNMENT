@@ -45,7 +45,7 @@ do {
         const eqNum2 = parseFloat(prompt("Enter the second number:"));
         result = eqNum1 === eqNum2;
         break;
-  
+   
       case 8:
         const neqNum1 = parseFloat(prompt("Enter the first number:"));
         const neqNum2 = parseFloat(prompt("Enter the second number:"));
