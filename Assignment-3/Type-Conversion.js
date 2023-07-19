@@ -17,3 +17,11 @@ let result2;
 // string to number
 result2 = Number('324');
 console.log(result2);
+
+let result3;
+result = Number(null);
+console.log(result3);
+
+let result4;
+result = parseInt('20.01');
+console.log(result4);
