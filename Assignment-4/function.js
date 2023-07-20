@@ -36,3 +36,18 @@ function fact(n) {
   }
 console.log(fact(5));
   
+// promise constructor : good way to handle asynchronous operations
+// a synchronus operations means  a proecss that operates independently othr oprations.
+// synchronous operation means that the process runs only as a result of some other process being completed or handed off.
+
+const count = true;
+
+let countValue = new Promise(function (resolve, reject) {
+    if (count) {
+        resolve("There is a count value.");
+    } else {
+        reject("There is no count value");
+    }
+});
+
+console.log(countValue);
