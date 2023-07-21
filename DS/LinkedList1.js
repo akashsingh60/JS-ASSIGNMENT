@@ -1,4 +1,4 @@
-// linked list basic program? ??
+// Insertion at the end in LinkedList
 class List{
     constructor(data){
         this.head ={
@@ -17,6 +17,7 @@ class List{
         this.tail= newNode;
         this.size+=1;
     }
+    
     
 }
 let list =new List(200);
